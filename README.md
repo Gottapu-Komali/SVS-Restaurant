@@ -1,68 +1,16 @@
-# SVS Restaurant Website 🍽️
+# React + Vite
 
-Welcome to the **SVS Restaurant Website** — a fully responsive and visually appealing web application developed to showcase a restaurant’s services, menu, and contact information.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## 🌟 Project Overview
-This project was created as part of my Web Development training to demonstrate the ability to design and deploy a complete client-facing website.
+Currently, two official plugins are available:
 
-The website features:
-- **Home Page** introducing the restaurant
-- **Menu Page** listing available dishes and prices
-- **About Section** describing the story and values of the restaurant
-- **Contact Section** for customer inquiries and bookings
-- **Fully Responsive Design** to ensure a seamless experience on mobile, tablet, and desktop
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-The website is **live** and can be accessed here:  
-🔗 [SVS Restaurant Website](https://svsrestaurant.netlify.app/)
+## React Compiler
 
----
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-## 🛠️ Technologies Used
-- **HTML5** — Structure and Layout
-- **CSS3** — Styling and Responsive Design
-- **JavaScript** — Interactive Elements (if any)
-- **Netlify** — Deployment Platform
+## Expanding the ESLint configuration
 
----
-
-## 🚀 How to Run Locally
-1. Clone the repository (if available) or download the project files.
-2. Open the folder.
-3. Run the `index.html` file in your preferred web browser.
-
----
-
-## 📸 Screenshots
-> (You can add some screenshots of your home page, menu page, etc., here if you want.)
-
----
-
-## 🧩 Features
-- Fully responsive across mobile, tablet, and desktop
-- Simple and clean user interface
-- Easy-to-navigate layout
-- Fast loading times
-- Deployed on Netlify for free public access
-
----
-
-## 📈 Future Improvements
-- Add a dynamic booking/reservation form
-- Integrate Google Maps for restaurant location
-- Add animation for smoother transitions
-- Connect with a backend to manage orders and reservations (Future scope)
-
----
-
-## 👨‍💻 Author
-**Gottapu Komali**  
-📧 gottapukomali@gmail.com | 📞 8688774163  
-🌐 [Portfolio Website](https://komaligottapuprotfolio.netlify.app/)
-
-
-Would you also like me to prepare **separate README files** for your:
-- **Portfolio Website** ✨
-- **ATM Simulation Project** 💳
-
-(They’ll be ready in 1-2 minutes if you want!) 🚀  
-Shall I proceed?
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
